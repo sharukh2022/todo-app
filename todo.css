@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    background-image: linear-gradient(to right,pink,lightblue);
+    padding: 3% 8%;
+}
+#main-container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 600px;
+}
+#login-form{
+    width: 100%;
+    background-color: white;
+    padding: 32px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#todo-input-field{
+    width: 80%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 0;
+    border-bottom: 1px solid black;
+    font-size: 23px;
+    outline: none;
+}
+#todo-input-field::placeholder{
+    color: blue;
+    
+}
+#btn-add-todo{
+    background-color:transparent;
+    border: none;
+    outline: none;
+    padding: 0;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+#font{
+    font-size:50px;
+    color: transparent;
+    background-image: linear-gradient(to right,pink,lightblue);
+    background-clip:text;
+    -webkit-background-clip: text;
+}   
+#delete-wrapper {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#delete-wrapper button{
+    padding: 10px 30px;
+    font-size: 18px;
+}
+.todo-list{
+    width: 100%;
+    background-color: white;
+    padding: 15px 35px;
+    border-radius: 8px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    
+} 
+.todo-msg-container{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.todo-edit-container{
+    display: none;
+    padding: 20px 40px;
+}
+
+.todo-message{
+    font-size: 25px;
+}
+.todo-list>div>i{
+    cursor: pointer;
+}
+.update-btn{
+    padding: 5px 15px;
+}
+.new-input{
+    padding: 5px;
+    border: 0;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+    margin-right: 20px;
+    outline: none;
+}
